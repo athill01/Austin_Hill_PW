@@ -25,7 +25,7 @@
     width: 68px;
     height: 20px;
     color: var(--text-color);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 1.2;
     white-space: nowrap;
@@ -35,7 +35,7 @@
 
 .stick_follow_icon ul li {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 10px;
     transition: all .3s;

@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import {
   FaGithub,
-  FaTwitter,
   FaFacebookF,
   FaLinkedin,
   FaYoutube,
@@ -22,7 +21,6 @@ const ICON_MAPPING = {
   linkedin: FaLinkedin,
   snapchat: FaSnapchatGhost,
   tiktok: FaTiktok,
-  twitter: FaTwitter,
   twitch: FaTwitch,
   youtube: FaYoutube
 };
