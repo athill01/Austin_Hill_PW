@@ -1,11 +1,11 @@
-const logotext = "JOHN";
+const logotext = "AUSTIN HILL";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Austin Hill",
+    description: "I’m Austin Hill an aspiring actuary",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Austin Hill",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
@@ -136,21 +136,23 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: process.env.REACT_APP_YOUR_EMAIL || "hillat847@gmail.com",
+    YOUR_FONE: process.env.REACT_APP_YOUR_FONE || "(757) 879-8348",
+    description:
+        process.env.REACT_APP_CONTACT_DESCRIPTION ||
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra.",
+    // To enable sending via EmailJS, set the following environment variables
+    // in a .env file at the project root (REACT_APP_ prefix required):
+    // REACT_APP_EMAILJS_SERVICE_ID, REACT_APP_EMAILJS_TEMPLATE_ID, REACT_APP_EMAILJS_USER_ID
+    YOUR_SERVICE_ID: process.env.REACT_APP_EMAILJS_SERVICE_ID || "service_id",
+    YOUR_TEMPLATE_ID: process.env.REACT_APP_EMAILJS_TEMPLATE_ID || "template_id",
+    YOUR_USER_ID: process.env.REACT_APP_EMAILJS_USER_ID || "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/athill01",
+    instagram: "https://www.instagram.com/athill0903?utm_source=qr",
+    linkedin: "https://www.linkedin.com/in/austin-hill1/",
 };
 export {
     meta,
