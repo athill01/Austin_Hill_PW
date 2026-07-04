@@ -49,6 +49,16 @@ section {
     width: 50%;
 }
 
+@media (min-width: 992px) {
+    .intro_sec .text {
+        width: 58%;
+    }
+
+    .intro_sec .h_bg-image {
+        width: 42%;
+    }
+}
+
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
@@ -57,7 +67,7 @@ section {
 }
 
 .intro_sec .intro {
-    max-width: 450px;
+    max-width: 560px;
     margin: 0 auto;
 }
 
@@ -81,14 +91,22 @@ section {
 }
 
 .intro_sec .text h1 {
-    font-size: 30px;
-    margin-bottom: 50px;
+    font-size: 34px;
+    margin-bottom: 26px;
     font-weight: 700;
 }
 
 .intro_sec .text h3 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
+}
+
+.intro_qualifications {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    color: var(--text-color-2);
 }
 
 .intro_sec .h_bg-image {
@@ -102,7 +120,9 @@ section {
 }
 
 .ac_btn {
-    padding: 4px 19px;
+    padding: 12px 32px;
+    min-width: 165px;
+    min-height: 52px;
     color: var(--secondary-color);
     position: relative;
     border: var(--secondary-color) 2px solid;
@@ -111,6 +131,7 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+    font-size: 1.2rem;
 }
 
 .ac_btn a {
@@ -179,11 +200,10 @@ section {
 
 .hero_card {
     width: min(100%, 720px);
-    margin-top: 60px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
     text-align: center;
 }
 
@@ -208,23 +228,8 @@ section {
     display: block;
 }
 
-.hero_copy {
-    max-width: 400px;
-}
-
-.hero_copy h3 {
-    font-size: 18px;
-    color: var(--text-color-2);
-    letter-spacing: 0.08rem;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-
-.hero_copy p {
-    font-size: 14px;
-    line-height: 1.6;
-    color: var(--text-color);
-    margin-bottom: 0;
+.intro_btn-action {
+    padding-bottom: 2rem !important;
 }
 
 @media (max-width:991.98px) {

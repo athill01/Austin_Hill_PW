@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
@@ -24,38 +23,19 @@ export const Home = () => {
                   className="hero_image"
                 />
               </div>
-              <div className="hero_copy">
-                <h3>About Me</h3>
-                <p>
-                  A short description can live here once you swap in a new
-                  photo.
-                </p>
-              </div>
             </div>
           </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
                 <h2 className="mb-1x">{introdata.title}</h2>
-                <h1 className="fluidz-48 mb-1x">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                        introdata.animated.third,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 10,
-                    }}
-                  />
-                </h1>
+                <h1 className="fluidz-48 mb-1x">{introdata.tagline}</h1>
+                <div className="intro_qualifications">{introdata.qualifications}</div>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      Explore My Work
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

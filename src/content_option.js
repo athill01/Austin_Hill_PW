@@ -3,23 +3,20 @@ import heroImage from "./assets/images/headshot.jpg";
 const logotext = "AUSTIN HILL";
 const meta = {
     title: "Austin Hill",
-    description: "I’m Austin Hill an aspiring actuary",
+    description: "An aspiring actuary",
 };
 
 const introdata = {
-    title: "I’m Austin Hill",
-    animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    title: "Austin Hill",
+    tagline: "Statistics & Computer Science Student | Aspiring Actuary",
+    qualifications: "Excel | Python | Tableau | SQL",
+    description: "Statistics & Computer Science student at UNC Chapel Hill with a 3.9 GPA and a passion for probability, predictive modeling, and risk analysis. Currently preparing for Exam P and seeking an actuarial internship where I can apply analytical thinking to real-world business challenges.",
     your_img_url: heroImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Who I Am and My Goals",
+    aboutme: "I'm a Statistics and Computer Science student at the University of North Carolina at Chapel Hill with a passion for solving complex problems through mathematics, programming, and data analysis. My academic interests center around probability, statistical modeling, and predictive analytics, which naturally led me to pursue a career in actuarial science. \n\nI enjoy working with data to uncover meaningful patterns, build models, and support informed decision-making. Whether I'm analyzing large datasets in Excel, developing forecasting models in Python, or exploring new statistical methods in class, I'm always looking for opportunities to apply quantitative thinking to real-world challenges. \n\nOutside the classroom, I serve as a Computer Science Teaching Assistant, where I've discovered how rewarding it is to help others understand difficult concepts. That experience has strengthened my communication skills and reinforced the importance of explaining technical ideas clearly. I'm currently preparing for Exam P and seeking actuarial internship opportunities where I can continue developing my technical skills while contributing to meaningful work in risk analysis, financial modeling, and data-driven decision making. \n\nWhen I'm not studying or coding, you'll usually find me exploring new technologies, refining personal projects, or looking for ways to combine statistics, programming, and business to solve interesting problems.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
