@@ -15,10 +15,24 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
-          ></div>
+          <div className="h_bg-image order-1 order-lg-2 h-100">
+            <div className="hero_card">
+              <div className="hero_frame">
+                <img
+                  src={introdata.your_img_url}
+                  alt={introdata.title}
+                  className="hero_image"
+                />
+              </div>
+              <div className="hero_copy">
+                <h3>About Me</h3>
+                <p>
+                  A short description can live here once you swap in a new
+                  photo.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
