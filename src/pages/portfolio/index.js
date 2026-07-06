@@ -28,7 +28,7 @@ export const Portfolio = () => {
                     <img
                       src={data.image}
                       alt={data.title}
-                      className="project_preview_image"
+                      className={`project_preview_image ${data.previewClass || ""}`}
                     />
                   ) : (
                     <div className="project_preview_inner">

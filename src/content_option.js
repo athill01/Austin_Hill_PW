@@ -1,6 +1,8 @@
 import heroImage from "./assets/images/headshot.jpg";
 import climateForecastImage from "./assets/images/climate_forecast.png";
 import mltDesktopImage from "./assets/images/MLT_Desktop.png";
+import academicDashboardImage from "./assets/images/Academic_Dashboard.png";
+import grammyVisitorsImage from "./assets/images/Grammy_visitors.png";
 
 const logotext = "AUSTIN HILL";
 const meta = {
@@ -90,6 +92,8 @@ const dataportfolio = [{
         title: "Academic Performance Dashboard",
         subtitle: "Excel | Data Analysis | Reporting",
         visualLabel: "[Dashboard Screenshot]",
+        image: academicDashboardImage,
+        previewClass: "project_preview_image--contain",
         description: "Built an Excel dashboard analyzing 15,000+ test records to surface trends, compare results, and track performance over time.",
         tools: ["Excel", "Pivot Tables", "Charts", "Dashboard Design"],
         projectLink: "/workbooks/Assessment_Data(1).xlsx",
@@ -111,6 +115,7 @@ const dataportfolio = [{
         title: "Global Career Accelerator KPI Analysis",
         subtitle: "Excel | PivotTables | XLOOKUP | Conditional Logic",
         visualLabel: "[Portfolio Project Screenshot]",
+        image: grammyVisitorsImage,
         description: "Utilized advanced Excel analytics, PivotTables, conditional logic, and XLOOKUP to calculate engagement KPIs and mobile visitor rates, comparing Grammy.com and RecordingAcademy.com after their 2022 website split.",
         tools: ["Excel", "PivotTables", "IF", "SUMIFS", "AVERAGEIFS", "XLOOKUP"],
         projectLink: "/workbooks/Austin_Hill_Project-Analyzing-Website-Performance-Grammys (1).xlsx",

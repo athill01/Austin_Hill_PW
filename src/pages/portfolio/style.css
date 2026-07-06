@@ -38,6 +38,12 @@
     display: block;
 }
 
+.project_preview_image--contain {
+    object-fit: contain;
+    background: rgba(248, 250, 252, 0.75);
+    padding: 0.35rem;
+}
+
 .project_preview_inner {
     width: 100%;
     min-height: 180px;
