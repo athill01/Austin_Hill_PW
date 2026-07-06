@@ -112,7 +112,7 @@ const dataportfolio = [{
         secondaryLink: "#",
     },
     {
-        title: "Global Career Accelerator KPI Analysis",
+        title: "Website Traffic & KPI Analysis",
         subtitle: "Excel | PivotTables | XLOOKUP | Conditional Logic",
         visualLabel: "[Portfolio Project Screenshot]",
         image: grammyVisitorsImage,
