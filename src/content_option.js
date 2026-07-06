@@ -1,25 +1,26 @@
 import heroImage from "./assets/images/headshot.jpg";
+import climateForecastImage from "./assets/images/climate_forecast.png";
+import mltDesktopImage from "./assets/images/MLT_Desktop.png";
+import academicDashboardImage from "./assets/images/Academic_Dashboard.png";
+import grammyVisitorsImage from "./assets/images/Grammy_visitors.png";
 
 const logotext = "AUSTIN HILL";
 const meta = {
     title: "Austin Hill",
-    description: "I’m Austin Hill an aspiring actuary",
+    description: "An aspiring actuary",
 };
 
 const introdata = {
-    title: "I’m Austin Hill",
-    animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    title: "Austin Hill",
+    tagline: "Statistics & Computer Science Student | Aspiring Actuary",
+    qualifications: "Preparing for Exam P | Excel | Python | Tableau | SQL",
+    description: "Statistics & Computer Science student at UNC Chapel Hill with a 3.9 GPA and a passion for probability, predictive modeling, and risk analysis. Currently preparing for Exam P and seeking an actuarial internship where I can apply analytical thinking to real-world business challenges.",
     your_img_url: heroImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Who I Am and My Goals",
+    aboutme: "I'm a Statistics and Computer Science student at the University of North Carolina at Chapel Hill with a passion for solving complex problems through mathematics, programming, and data analysis. My academic interests center around probability, statistical modeling, and predictive analytics, which naturally led me to pursue a career in actuarial science. \n\nI enjoy working with data to uncover meaningful patterns, build models, and support informed decision-making. Whether I'm analyzing large datasets in Excel, developing forecasting models in Python, or exploring new statistical methods in class, I'm always looking for opportunities to apply quantitative thinking to real-world challenges. \n\nOutside the classroom, I serve as a Computer Science Teaching Assistant, where I've discovered how rewarding it is to help others understand difficult concepts. That experience has strengthened my communication skills and reinforced the importance of explaining technical ideas clearly. I'm currently preparing for Exam P and seeking actuarial internship opportunities where I can continue developing my technical skills while contributing to meaningful work in risk analysis, financial modeling, and data-driven decision making. \n\nWhen I'm not studying or coding, you'll usually find me exploring new technologies, refining personal projects, or looking for ways to combine statistics, programming, and business to solve interesting problems.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -75,65 +76,51 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Climate Forecasting & Statistical Modeling",
+        subtitle: "Python | Regression | Time Series | Excel",
+        visualLabel: "[Large Screenshot of Dashboard/Graph]",
+        image: climateForecastImage,
+        description: "Forecasted long-term climate trends using Linear Regression and VAR on 22 years of historical climate data, explaining 62.6% of the variance in global sea level rise.",
+        tools: ["Python", "Pandas", "Statsmodels", "Matplotlib"],
+        projectLink: "https://drive.google.com/file/d/1bzDIx97tHTJWpOl4tEjzfnawWhRd80-s/view?usp=sharing",
+        primaryLabel: "Final Paper",
+        secondaryLabel: "Download Workbook",
+        secondaryLink: "/workbooks/FinalProject-copy.ipynb",
+        secondaryDownload: true,
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Academic Performance Dashboard",
+        subtitle: "Excel | Data Analysis | Reporting",
+        visualLabel: "[Dashboard Screenshot]",
+        image: academicDashboardImage,
+        previewClass: "project_preview_image--contain",
+        description: "Built an Excel dashboard analyzing 15,000+ test records to surface trends, compare results, and track performance over time.",
+        tools: ["Excel", "Pivot Tables", "Charts", "Dashboard Design"],
+        projectLink: "/workbooks/Assessment_Data(1).xlsx",
+        primaryLabel: "Download Workbook",
+        primaryDownload: true,
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "UNC Memory Diagram Comparator",
+        subtitle: "Python | Learning Tool | UNC Framework",
+        visualLabel: "[Software Project Screenshot]",
+        image: mltDesktopImage,
+        description: "Engineered a Python-based learning tool leveraging an existing UNC framework to compare student-drawn memory diagrams against auto-generated golden diagrams, improving logic accuracy for 1,000+ introductory students per semester.",
+        tools: ["Python", "UNC Framework", "Logic Validation", "Education Tech"],
+        projectLink: "#",
+        secondaryLabel: "GitHub",
+        secondaryLink: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        title: "Website Traffic & KPI Analysis",
+        subtitle: "Excel | PivotTables | XLOOKUP | Conditional Logic",
+        visualLabel: "[Portfolio Project Screenshot]",
+        image: grammyVisitorsImage,
+        description: "Utilized advanced Excel analytics, PivotTables, conditional logic, and XLOOKUP to calculate engagement KPIs and mobile visitor rates, comparing Grammy.com and RecordingAcademy.com after their 2022 website split.",
+        tools: ["Excel", "PivotTables", "IF", "SUMIFS", "AVERAGEIFS", "XLOOKUP"],
+        projectLink: "/workbooks/Austin_Hill_Project-Analyzing-Website-Performance-Grammys (1).xlsx",
+        primaryLabel: "Download Workbook",
+        primaryDownload: true,
     },
 ];
 

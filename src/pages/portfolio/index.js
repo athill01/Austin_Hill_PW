@@ -19,16 +19,59 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
+        <div className="portfolio_grid mb-5">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+              <article key={i} className="project_card">
+                <div className="project_preview">
+                  {data.image ? (
+                    <img
+                      src={data.image}
+                      alt={data.title}
+                      className={`project_preview_image ${data.previewClass || ""}`}
+                    />
+                  ) : (
+                    <div className="project_preview_inner">
+                      <span>{data.visualLabel}</span>
+                    </div>
+                  )}
                 </div>
-              </div>
+                <div className="project_body">
+                  <p className="project_subtitle">{data.subtitle}</p>
+                  <h2 className="project_title">{data.title}</h2>
+                  <p className="project_description">{data.description}</p>
+
+                  <div className="project_tools">
+                    <span className="project_tools_label">Tools:</span>
+                    <div className="project_tools_list">
+                      {data.tools.map((tool, toolIndex) => (
+                        <span key={toolIndex} className="project_tool_tag">
+                          {tool}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="project_actions">
+                    <a
+                      href={data.projectLink}
+                      className="project_action_btn primary"
+                      download={data.primaryDownload ? "" : undefined}
+                    >
+                      {data.primaryLabel || "View Project"}
+                    </a>
+                    {data.secondaryLabel ? (
+                      <a
+                        href={data.secondaryLink}
+                        className="project_action_btn secondary"
+                        download={data.secondaryDownload ? "" : undefined}
+                      >
+                        {data.secondaryLabel}
+                      </a>
+                    ) : null}
+                  </div>
+                </div>
+              </article>
             );
           })}
         </div>

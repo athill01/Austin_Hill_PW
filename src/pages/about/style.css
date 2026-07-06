@@ -12,7 +12,7 @@
 }
 
 .progress-title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     margin: 15px 0 20px;
     font-family: 'Raleway';
@@ -39,7 +39,7 @@
     position: absolute;
     top: -30px;
     right: 8px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     font-style: italic;
     color: var(--text-color);
@@ -58,12 +58,16 @@
 }
 
 .section-title {
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .service__title {
     padding: 8px 0;
     border-bottom: solid 2px var(--secondary-color);
+}
+
+.aboutme_text {
+    white-space: pre-line;
 }
 
 .service-section .service-category-title {
