@@ -29,6 +29,14 @@ Start the server
 
 <pre>yarn start</pre>
 
+### Deploy to GitHub Pages
+
+Update the `homepage` field in `package.json` if your GitHub username or repository name is different, then deploy with:
+
+<pre>yarn deploy</pre>
+
+The app is configured with a GitHub Pages fallback page and repo-relative asset links so client-side routes keep working after refresh.
+
 ### More
 
 Modify pages content in  `src/content_option.js`.

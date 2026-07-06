@@ -4,6 +4,9 @@ import mltDesktopImage from "./assets/images/MLT_Desktop.png";
 import academicDashboardImage from "./assets/images/Academic_Dashboard.png";
 import grammyVisitorsImage from "./assets/images/Grammy_visitors.png";
 
+const publicUrl = process.env.PUBLIC_URL || "";
+const withPublicUrl = (path) => `${publicUrl}${path}`;
+
 const logotext = "AUSTIN HILL";
 const meta = {
     title: "Austin Hill",
@@ -85,7 +88,7 @@ const dataportfolio = [{
         projectLink: "https://drive.google.com/file/d/1bzDIx97tHTJWpOl4tEjzfnawWhRd80-s/view?usp=sharing",
         primaryLabel: "Final Paper",
         secondaryLabel: "Download Workbook",
-        secondaryLink: "/workbooks/FinalProject-copy.ipynb",
+        secondaryLink: withPublicUrl("/workbooks/FinalProject-copy.ipynb"),
         secondaryDownload: true,
     },
     {
@@ -96,7 +99,7 @@ const dataportfolio = [{
         previewClass: "project_preview_image--contain",
         description: "Built an Excel dashboard analyzing 15,000+ test records to surface trends, compare results, and track performance over time.",
         tools: ["Excel", "Pivot Tables", "Charts", "Dashboard Design"],
-        projectLink: "/workbooks/Assessment_Data(1).xlsx",
+        projectLink: withPublicUrl("/workbooks/Assessment_Data(1).xlsx"),
         primaryLabel: "Download Workbook",
         primaryDownload: true,
     },
@@ -118,7 +121,7 @@ const dataportfolio = [{
         image: grammyVisitorsImage,
         description: "Utilized advanced Excel analytics, PivotTables, conditional logic, and XLOOKUP to calculate engagement KPIs and mobile visitor rates, comparing Grammy.com and RecordingAcademy.com after their 2022 website split.",
         tools: ["Excel", "PivotTables", "IF", "SUMIFS", "AVERAGEIFS", "XLOOKUP"],
-        projectLink: "/workbooks/Austin_Hill_Project-Analyzing-Website-Performance-Grammys (1).xlsx",
+        projectLink: withPublicUrl("/workbooks/Austin_Hill_Project-Analyzing-Website-Performance-Grammys (1).xlsx"),
         primaryLabel: "Download Workbook",
         primaryDownload: true,
     },
