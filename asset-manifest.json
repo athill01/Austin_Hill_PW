@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Austin_Hill_PW/static/css/main.f77ee285.css",
+    "main.css": "/Austin_Hill_PW/static/css/main.f891a978.css",
     "main.js": "/Austin_Hill_PW/static/js/main.42b5cf51.js",
     "static/media/climate_forecast.png": "/Austin_Hill_PW/static/media/climate_forecast.eb0849544be0615f053a.png",
     "static/media/MLT_Desktop.png": "/Austin_Hill_PW/static/media/MLT_Desktop.878030399cc972e6616d.png",
@@ -10,7 +10,7 @@
     "index.html": "/Austin_Hill_PW/index.html"
   },
   "entrypoints": [
-    "static/css/main.f77ee285.css",
+    "static/css/main.f891a978.css",
     "static/js/main.42b5cf51.js"
   ]
 }
