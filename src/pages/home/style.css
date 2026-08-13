@@ -184,7 +184,6 @@ section {
 .ac_btn .one {
     background-color: var(--primary-color);
     transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
-    z-index: -3;
     z-index: -4;
 }
 
@@ -196,9 +195,8 @@ section {
 
 .ac_btn .three {
     background-color: var(--secondary-color);
-    z-index: -2;
-    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -3;
+    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
 }
 
 #button_p {
@@ -211,7 +209,7 @@ section {
 }
 
 .hero_card {
-    width: min(100%, 720px);
+    width: min(100%, 620px);
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -220,8 +218,8 @@ section {
 }
 
 .hero_frame {
-    width: min(660px, 48vw);
-    height: min(660px, 48vw);
+    width: min(520px, 38vw);
+    height: min(520px, 38vw);
     flex: 0 0 auto;
     border-radius: 50%;
     overflow: hidden;
@@ -244,20 +242,34 @@ section {
     padding-bottom: 2rem !important;
 }
 
+@media (min-width: 1400px) {
+    .hero_card {
+        width: min(100%, 560px);
+    }
+
+    .hero_frame {
+        width: 480px;
+        height: 480px;
+    }
+}
+
 @media (max-width:991.98px) {
     .intro_sec .h_bg-image {
         height: 600px;
         min-height: 75vh;
         margin-bottom: 30px;
     }
+
     .hero_card {
         margin-top: 0;
         gap: 24px;
     }
+
     .hero_frame {
         width: min(320px, 78vw);
         height: min(320px, 78vw);
     }
+
     .hero_image {
         object-position: center 24%;
     }

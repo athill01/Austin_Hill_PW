@@ -3,6 +3,7 @@ import climateForecastImage from "./assets/images/climate_forecast.png";
 import mltDesktopImage from "./assets/images/MLT_Desktop.png";
 import academicDashboardImage from "./assets/images/Academic_Dashboard.png";
 import grammyVisitorsImage from "./assets/images/Grammy_visitors.png";
+import actuarialPricingImage from "./assets/images/actuarial-pricing_copy.png"
 
 const publicUrl = process.env.PUBLIC_URL || "";
 const withPublicUrl = (path) => `${publicUrl}${path}`;
@@ -79,6 +80,20 @@ const services = [{
 ];
 
 const dataportfolio = [{
+        title: "Whole Life Actuarial Pricing Engine & ETL Pipeline",
+        subtitle: "Excel | VBA | Power Query",
+        visualLabel: "[Actuarial Pricing Workflow Screenshot]",
+        image: actuarialPricingImage,
+        previewClass: "project_preview_image--contain project_preview_image--zoom",
+        description: "Built an end-to-end whole life insurance pricing and ETL workflow in Excel, VBA, and Power Query to automate data cleaning, validate inputs, and generate actuarial pricing outputs for review.",
+        tools: ["Excel", "VBA", "Power Query", "Data Validation", "Actuarial Modeling"],
+        projectLink: "https://github.com/athill01/actuarial-pricing-calculator",
+        primaryLabel: "GitHub",
+        secondaryLabel: "Download Workbook",
+        secondaryLink: withPublicUrl("/workbooks/Profit_Assessment_copy.xlsm"),
+        secondaryDownload: true,
+    },
+    {
         title: "Climate Forecasting & Statistical Modeling",
         subtitle: "Python | Regression | Time Series | Excel",
         visualLabel: "[Large Screenshot of Dashboard/Graph]",
@@ -111,7 +126,7 @@ const dataportfolio = [{
         description: "Engineered a Python-based learning tool leveraging an existing UNC framework to compare student-drawn memory diagrams against auto-generated golden diagrams, improving logic accuracy for 1,000+ introductory students per semester.",
         tools: ["Python", "UNC Framework", "Logic Validation", "Education Tech"],
         projectLink: "#",
-        secondaryLabel: "GitHub",
+        secondaryLabel: "GitHub (Private)",
         secondaryLink: "#",
     },
     {

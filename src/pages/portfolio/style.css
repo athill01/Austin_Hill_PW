@@ -44,6 +44,11 @@
     padding: 0.35rem;
 }
 
+.project_preview_image--zoom {
+    transform: scale(1.1);
+    transform-origin: center;
+}
+
 .project_preview_inner {
     width: 100%;
     min-height: 180px;
