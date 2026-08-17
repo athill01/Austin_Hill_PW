@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Austin_Hill_PW/static/css/main.f891a978.css",
-    "main.js": "/Austin_Hill_PW/static/js/main.42b5cf51.js",
+    "main.css": "/Austin_Hill_PW/static/css/main.b9f8bcfb.css",
+    "main.js": "/Austin_Hill_PW/static/js/main.c3fb0c7d.js",
     "static/media/climate_forecast.png": "/Austin_Hill_PW/static/media/climate_forecast.eb0849544be0615f053a.png",
     "static/media/MLT_Desktop.png": "/Austin_Hill_PW/static/media/MLT_Desktop.878030399cc972e6616d.png",
+    "static/media/actuarial-pricing_copy.png": "/Austin_Hill_PW/static/media/actuarial-pricing_copy.138875922af6e4169b01.png",
     "static/media/Academic_Dashboard.png": "/Austin_Hill_PW/static/media/Academic_Dashboard.f35c1bc4d05d6ba5d22b.png",
     "static/media/Grammy_visitors.png": "/Austin_Hill_PW/static/media/Grammy_visitors.c566eccbfa882794accc.png",
     "static/media/headshot.jpg": "/Austin_Hill_PW/static/media/headshot.9d36d503f0d152898ab5.jpg",
     "index.html": "/Austin_Hill_PW/index.html"
   },
   "entrypoints": [
-    "static/css/main.f891a978.css",
-    "static/js/main.42b5cf51.js"
+    "static/css/main.b9f8bcfb.css",
+    "static/js/main.c3fb0c7d.js"
   ]
 }
